@@ -1,0 +1,11 @@
+
+/* Selects the second element of div siblings */
+li:nth-child(2n) {
+  background: red;
+}
+
+/* Selects the second li element in a list */
+li:nth-child(2n+1) {
+  background: lightgreen;
+}
+
