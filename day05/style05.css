@@ -1,3 +1,10 @@
-.baba {
-    
-}
+.resume {border: 1px solid blue;
+    border: 1px solid blue;
+    width: 1340px;
+    height: 523px;}
+
+.resume-content {border: 1px solid rgb(0, 238, 255)}
+
+.resumen-content-info {border: 1px solid rgb(0, 255, 128)}
+
+.resume-content-details {border: 1px solid rgb(3, 17, 4)}
