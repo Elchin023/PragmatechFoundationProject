@@ -1,13 +1,10 @@
-.resume {border: 1px solid blue;
-    border: 1px solid blue;
-    width: 1340px;
-    height: 523px;}
-
-.resume-content {border: 1px solid rgb(0, 238, 255);
-    width: 409px;
-    height: 719px;
-    margin: auto;}
-
-.resumen-content-info {border: 1px solid rgb(0, 255, 128)}
-
-.resume-content-details {border: 1px solid rgb(3, 17, 4)}
+.resume{
+    border: 2px solid green;
+    width: 406px;
+    height: 709px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }

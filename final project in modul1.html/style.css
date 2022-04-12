@@ -1,0 +1,16 @@
+.common{
+    border: 2px solid aqua;
+    width: 1350px;
+    height: 95px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.common :first-child ul{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+
+}
