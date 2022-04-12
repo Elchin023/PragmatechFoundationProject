@@ -10,7 +10,10 @@
 }
 .common :first-child ul{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: left;
-
+    justify-content: flex-end;
+}
+.common :last-child ul{
+    display: flex;
+    justify-content: flex-start;
+    
 }
