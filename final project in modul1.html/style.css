@@ -1,24 +1,28 @@
-.common{
-    border: 2px solid aqua;
-    width: 1350px;
-    height: 95px;
-    margin: auto;
+.common {
+    height: 150px;
+    margin: 0px auto;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
-.common :first-child div{
+
+.common-left {
+    padding: 0px 25px;
     display: flex;
-    justify-content: flex-end;
-}
-.common :last-child div{
+    align-items: center;
+    }
+
+.common-right {
     display: flex;
-    justify-content: flex-start;
-    padding: 0px 150px;
+    align-items: center;
+
 }
-button{
+
+a {
+    margin-right: 25px;
     background-color: white;
-    border-block: white;
-    
+}
+
+.common :first-child i {
+    color: blue;
 }
