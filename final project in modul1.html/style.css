@@ -8,12 +8,17 @@
     align-items: center;
     justify-content: center;
 }
-.common :first-child ul{
+.common :first-child div{
     display: flex;
     justify-content: flex-end;
 }
-.common :last-child ul{
+.common :last-child div{
     display: flex;
     justify-content: flex-start;
+    padding: 0px 150px;
+}
+button{
+    background-color: white;
+    border-block: white;
     
 }
