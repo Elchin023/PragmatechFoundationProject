@@ -1,5 +1,6 @@
 div{
     width: 1360px;
     height: 630px;
-    background: linear-gradient(blue,red,green);
+    background: conic-gradient( white 0deg 120deg, red 120deg 240deg, white 240deg 360deg)
+    
     }
