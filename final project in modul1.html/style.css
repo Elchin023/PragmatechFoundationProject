@@ -10,11 +10,13 @@
     padding: 0px 25px;
     display: flex;
     align-items: center;
+    font-family: 'Times New Roman', Times, serif;
     }
 
 .common-right {
     display: flex;
     align-items: center;
+    
 
 }
 
@@ -25,4 +27,16 @@ a {
 
 .common :first-child i {
     color: blue;
+}
+.About-me{
+    height: 540px;
+    width: 1360px;
+    border: color red;
+
+}
+.About-me-content{
+    border: color purple;
+}
+.About-me-content-items{
+    border: color yellow;
 }
