@@ -23,20 +23,108 @@
 a {
     margin-right: 25px;
     background-color: white;
+    
+}
+a {
+    color: black;
 }
 
-.common :first-child i {
+a:hover {
+    color: blue
+}
+
+.common-left i {
     color: blue;
 }
+/*first page About me sections*/
 .About-me{
     height: 540px;
     width: 1360px;
     border: color red;
+    
 
 }
+.about-me-container{
+    border: 1px solid green;
+    width: 810px;
+    height: 833px;
+    margin: 0 auto;
+    display: flex;
+    align-content: left;
+
+    
+
+    
+}
 .About-me-content{
-    border: color purple;
+    border:1px solid purple;
+    background-color:rgb(238, 229, 229);
+    width: 285px;
+    height: 450px;
+    margin: 10px 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+}
+.About-me-content img{
+    width: 160px;
+    height: 160px;
+    border-radius: 90px;
+    }
+.About-me-content h1{
+    line-height: 1.2em;
+    text-align: center;
+    font-size: 23px;
+    margin: 0px 0px;
+    
+}
+
+.About-me-content hr{
+    --lnw: 2px;
+    --brd: var(--color_18);
+    --alpha-brd: 1;
+    transform-origin: center 1px
+
+}.About-me-content h2{
+    line-height: 6.2em;
+    text-align: center;
+    font-size: 16px;
+    margin: 0px 0px;
+    
 }
 .About-me-content-items{
-    border: color yellow;
+    border:1px solid yellow;
+    height: 500px;
+    width: 285px;
+    display: inline-block;
+    margin: 10px 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.About-me-content-items h1{
+    line-height: 1.2em;
+    text-align: left;
+    font-size: 93px;
+    margin: 0px 0px;
+
+}
+.About-me-content-items h2{
+    line-height: 1.2em;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 0px;
+
+}
+.About-me-content-items button{
+    border-radius: 15px;
+    display: table-column;
 }
